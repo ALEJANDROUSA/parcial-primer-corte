@@ -1,0 +1,4 @@
+-- Notacion de calculo lambda para el promedio
+-- avg ≡ λxs. ( (λa. λb. a / b) (sum xs) (len xs) )
+-- donde sum ≡ foldr (λx. λacc. x + acc) 0
+-- y len ≡ foldr (λ_. λacc. 1 + acc) 0
