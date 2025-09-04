@@ -1,4 +1,4 @@
-# Parcial Final Programacion - Universidad
+# Parcial Final Programacion - Alejandro Poveda Sandoval
 
 ## Objetivo
 Este parcial busca aplicar distintos paradigmas de programacion y optimizacion de memoria en el desarrollo de programas que resuelvan problemas de gestion de estudiantes y operaciones basicas sobre listas.
@@ -41,28 +41,8 @@ gcc -O2 -std=c11 estudiantes_memoria.c -o estudiantes_memoria
 ./estudiantes_memoria
 ```
 
-## Como subir a GitHub
-
-1. Crear un repositorio en GitHub desde la pagina web (ejemplo: `parcial-final`).
-2. En tu computador, abrir la terminal y clonar el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/parcial-final.git
-   cd parcial-final
-   ```
-3. Copiar dentro de esta carpeta los archivos:
-   - OrdenEstudiantesDeclarativo.hs
-   - ordenar_estudiantes_imperativo.py
-   - estudiantes_memoria.c
-   - PromedioLambda.hs
-   - README.md
-4. Agregar los archivos al control de versiones:
-   ```bash
-   git add .
-   git commit -m "Entrega final del parcial de programacion"
-   ```
-5. Subir al repositorio remoto en GitHub:
-   ```bash
-   git push origin main
-   ```
-
-Una vez hecho esto, el profesor podra ver el repositorio y ejecutar cada uno de los codigos segun las instrucciones.
+## Conclusiones
+- El ejercicio permitio contrastar los paradigmas de programacion declarativo y imperativo, mostrando como en el primero se describe que se quiere lograr mientras que en el segundo se detallan los pasos para conseguirlo.
+- La implementacion en C evidencio la importancia de la gestion manual de memoria y como se pueden optimizar estructuras mediante tecnicas como bitfields, arrays dinamicos y compactacion.
+- El uso de notacion de calculo lambda mostro la base teorica de la programacion funcional, reforzando la comprension de la abstraccion y composicion de funciones.
+- En general, el parcial integro distintos enfoques de programacion que permiten desarrollar una vision mas amplia de las herramientas disponibles para resolver problemas computacionales de manera eficiente y segura.
